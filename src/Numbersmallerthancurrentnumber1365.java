@@ -1,5 +1,5 @@
 import java.util.Arrays;
-class Solution {
+class Solution1365 {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] ans = new int[nums.length];
         // Arrays.sort(nums);
@@ -27,7 +27,7 @@ public class Numbersmallerthancurrentnumber1365
 {
     public static void main (String[] args)
     {
-        Solution obj = new Solution();
+        Solution1365 obj = new Solution1365();
         int[] arr = { 2,3,8,9};
         int[] res= obj.smallerNumbersThanCurrent(arr);
        
